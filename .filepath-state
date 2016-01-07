@@ -1,0 +1,317 @@
+{
+  "b85f28c40671680cc9f791d8cf8e3a1befd7a8b2": [
+    "oltest_azureright\\v1\\Token\\aad_rightsmanagement_1.md"
+  ],
+  "e71797b76cc654574abd164dca33c7bcb13da916": [
+    "oltest_azureright\\v1\\Token\\aad_rightsmanagement_1_md.md"
+  ],
+  "7eb63fc4302ac8cb0c65a7a6c88c78a59d9b589d": [
+    "oltest_azureright\\v1\\Token\\aad_rightsmanagement_2.md"
+  ],
+  "cd0725e950bad3c83287ebf1c8e48c3599a0e3b6": [
+    "oltest_azureright\\v1\\Token\\aad_rightsmanagement_2_md.md"
+  ],
+  "eec4429fa1f423668cea654543380ac880e2d0ef": [
+    "oltest_azureright\\v1\\Token\\firstref_client_7.md"
+  ],
+  "8d825513a8fcd30c0e610859192ef20fa89ebad2": [
+    "oltest_azureright\\v1\\Token\\firstref_client_7_md.md"
+  ],
+  "06b6a1589ec4350b6c89fec1cc3a11f4364d49e9": [
+    "oltest_azureright\\v1\\Token\\firstref_longhorn.md"
+  ],
+  "c5456d365be5ae6d523692438b3eca61b7f8a397": [
+    "oltest_azureright\\v1\\Token\\firstref_longhorn_md.md"
+  ],
+  "0fd063f373c94e1805b6c6c7d80b6664c5867093": [
+    "oltest_azureright\\v1\\Token\\firstref_server_7.md"
+  ],
+  "eda6e9dec94ebd345581fbfb1331182fa2cc2ebc": [
+    "oltest_azureright\\v1\\Token\\firstref_server_7_md.md"
+  ],
+  "13ff460ac519f9cd49ce1cf25a819cea78e2772f": [
+    "oltest_azureright\\v1\\Token\\firstref_vista.md"
+  ],
+  "da178e2adfef6403babbf2628c7511519b7833d6": [
+    "oltest_azureright\\v1\\Token\\firstref_vista_md.md"
+  ],
+  "828296e06647ff317702e90cf789b2d22668f849": [
+    "oltest_azureright\\v1\\Token\\nextref_server_7.md"
+  ],
+  "36e6ed3e58966398a0757e85465c1835ee9e91c5": [
+    "oltest_azureright\\v1\\Token\\nextref_server_7_md.md"
+  ],
+  "d697f565046a9fb63f1ab57b882ccb6053c0f841": [
+    "oltest_azureright\\v1\\Token\\o365_1.md"
+  ],
+  "abbc3d68e1ce1aa2c8f5b3dfdededdced649bcf0": [
+    "oltest_azureright\\v1\\Token\\o365_1_md.md"
+  ],
+  "7a7696b5c0a84413e52374a40ab71c111dd096f8": [
+    "oltest_azureright\\v1\\Token\\o365_2.md"
+  ],
+  "b05c48ff61a131f1142e176549fef95ac0425294": [
+    "oltest_azureright\\v1\\Token\\o365_2_md.md"
+  ],
+  "ab18f38c0a685b618ec3ca4d32795fefdb6717c9": [
+    "oltest_azureright\\v1\\Token\\win8_client_1.md"
+  ],
+  "54b0789edc06c2f0735e554d0b6c010b32e896f7": [
+    "oltest_azureright\\v1\\Token\\win8_client_1_md.md"
+  ],
+  "c6a1c70d4bdc9367af817b843e529a7f9d2d3d33": [
+    "oltest_azureright\\v1\\Token\\win8_server_1.md"
+  ],
+  "25d07b17db2fd45050cf796606dd93b3a2b819ac": [
+    "oltest_azureright\\v1\\Token\\win8_server_1_md.md"
+  ],
+  "8e00c7c29ea4034042f2ab548619f141e659804e": [
+    "oltest_azureright\\v1\\Image\\AzRMS_StoryboardSPO_3.png"
+  ],
+  "61256524f27787ec5e4aef7cc584058ec3d56402": [
+    "oltest_azureright\\v1\\Image\\AzRMS_StoryboardSPO_small3.png"
+  ],
+  "af0b5eded83a2376c78d9083c3db82d371e8f834": [
+    "oltest_azureright\\v1\\Topic\\Activating_Azure_Rights_Management.md"
+  ],
+  "1ee781a4882ec2b920d9b64d1064bf23b1194ca0": [
+    "oltest_azureright\\v1\\Topic\\Active_Directory_Rights_Management_Services_Mobile_Device_Extension.md"
+  ],
+  "a6926788b2cd364685eb3e39ed774356aafe9635": [
+    "oltest_azureright\\v1\\Topic\\Administering_Azure_Rights_Management_by_Using_Windows_PowerShell.md"
+  ],
+  "ff224e7ebd95f2996c166531a5ca394fda9cdf9e": [
+    "oltest_azureright\\v1\\Topic\\Azure_Rights_Management.md"
+  ],
+  "d3ef304b2c48f5189e929a92d3e68fc4dcd781c0": [
+    "oltest_azureright\\v1\\Topic\\Azure_Rights_Management_Deployment_Roadmap.md"
+  ],
+  "08597fca8a205a82e3b6193a1858a513d730babe": [
+    "oltest_azureright\\v1\\Topic\\Comparing_Azure_Rights_Management_and_AD_RMS.md"
+  ],
+  "1ed4edfd4cb89a6e5a21df221cc0d144acdecf7d": [
+    "oltest_azureright\\v1\\Topic\\Configuring_Applications_for_Azure_Rights_Management.md"
+  ],
+  "2dc373d2b6698da3bde6acfab6953391c379a1a5": [
+    "oltest_azureright\\v1\\Topic\\Configuring_Azure_Rights_Management.md"
+  ],
+  "43a9017e6feadd3b08a518a227496a36f452a5f7": [
+    "oltest_azureright\\v1\\Topic\\Configuring_Custom_Templates_for_Azure_Rights_Management.md"
+  ],
+  "506403dbd50af0d74bd89e2393e1fa88370bb2be": [
+    "oltest_azureright\\v1\\Topic\\Configuring_Super_Users_for_Azure_Rights_Management_and_Discovery_Services_or_Data_Recovery.md"
+  ],
+  "f1de8bcd0459da50d6b1c335603673f2cac4decc": [
+    "oltest_azureright\\v1\\Topic\\Configuring_Usage_Rights_for_Azure_Rights_Management.md"
+  ],
+  "c16b089323fbaf8e3803e4355d0a5bb24c6b5239": [
+    "oltest_azureright\\v1\\Topic\\Decommissioning_and_Deactivating_Azure_Rights_Management.md"
+  ],
+  "ab7b7c3b85d2c4ec8e7aad1843c5e10f8cb7fe04": [
+    "oltest_azureright\\v1\\Topic\\Deploying_the_Azure_Rights_Management_Connector.md"
+  ],
+  "b085710e531391b56d54a398cb6de1a5c96b03c7": [
+    "oltest_azureright\\v1\\Topic\\Dialog_box_options_for_the_Rights_Management_sharing_application.md"
+  ],
+  "a02efb054c322a832c7a30ca73bcc0efc413075d": [
+    "oltest_azureright\\v1\\Topic\\Download_and_install_the_Rights_Management_sharing_application.md"
+  ],
+  "ca2a67d6692160a17ab8872d23b961006bf4acbc": [
+    "oltest_azureright\\v1\\Topic\\End_User_License_Agreement_for_Microsoft_RMS_sharing_application.md"
+  ],
+  "773ecf8f639e58bec60206245a7edb9e849124ce": [
+    "oltest_azureright\\v1\\Topic\\Frequently_Asked_Questions_for_Azure_Rights_Management.md"
+  ],
+  "3eebb771f6219c69e408fddd8360ce9744485d6c": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__A_SharePoint_protected_document.md"
+  ],
+  "2d63b26e7aa2c4fca3ae9fae261fc5b062a8730c": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Activating_Rights_Management.md"
+  ],
+  "6b7e906e0310572cd194819d5d9fac3e251a1157": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Alice_gets_email_notification.md"
+  ],
+  "ef98e3f59622221ab311c827685d36f7d327b5af": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Alice_shares_protected_attachment.md"
+  ],
+  "3e7f6e2467b22f0462df3c4a63c8b1a6495bb657": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__An_external_email_protected_by_DLP_and_Azure_RMS.md"
+  ],
+  "67568906637eaa3f9d8d72867540168766f2b8df": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__An_unprotected_email__internal_.md"
+  ],
+  "f2a2ba43f0b01bba2a268a84d2415993cb61a892": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Available_settings_for_RMS_templates.md"
+  ],
+  "6e60a291ad3f6c3442c2029dff2b74d69ce1460f": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Bob_opens_the_attachment_on_his_iPad.md"
+  ],
+  "e446310957d67c2d7310d3f870497b3166d332a5": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Bob_sees_the_email_on_his_iPad.md"
+  ],
+  "b11ac59cb44edc1052bc9d5cd2e7a24df8570328": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Confidential_report_accidentally_sent_to_wrong_person.md"
+  ],
+  "65008a8624443c422a22435de9b644929639723e": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Configuring_DLP_for_Azure_RMS.md"
+  ],
+  "4dcf723caa8d2d757a745ae38908b58535b577ff": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Configuring_FCI_for_the_Marketing_classification.md"
+  ],
+  "bdd9f72df66b5c225a0fe7f0dfebb1663a6a00c1": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Enabling_IRM_for_a_library.md"
+  ],
+  "f4415a5fa2d5e763db0458db2903f960a218721b": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Enabling_IRM_on_SharePoint_Online.md"
+  ],
+  "363f66ac7c824c53e37d3e0b3f3488b8b09a69ac": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Installing_and_Configuring_the_RMS_connector_for_FCI.md"
+  ],
+  "329584e616e974a95d1e039a134aef19d34fe6b6": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__RMS_templates_in_the_Azure_Management_Portal.md"
+  ],
+  "a1c6c69876326a664d3663f7b0ce67f174f44f85": [
+    "oltest_azureright\\v1\\Topic\\Full_screen_picture__Select_RMS_templates_in_applications,_such_as_File_Explorer_and_Word.md"
+  ],
+  "e70e662a44c62a1c439c1526470edd32be631e3b": [
+    "oltest_azureright\\v1\\Topic\\Getting_Started_with_Azure_Rights_Management.md"
+  ],
+  "037edb13c48c5b32a3640569150eeced60a13776": [
+    "oltest_azureright\\v1\\Topic\\Helping_Users_to_Protect_Files_by_Using_Azure_Rights_Management.md"
+  ],
+  "0413c61d5fc29cdae21616bed7d23542477bae5c": [
+    "oltest_azureright\\v1\\Topic\\How_Applications_Support_Azure_Rights_Management.md"
+  ],
+  "e26d48733f1a069eb057012bd6dfdaae594ecd80": [
+    "oltest_azureright\\v1\\Topic\\How_to_safely_share_a_document_by_email.md"
+  ],
+  "332ef485addd58b7c50a484cc13222d0996dd85d": [
+    "oltest_azureright\\v1\\Topic\\Information_and_Support_for_Azure_Rights_Management.md"
+  ],
+  "2920918da07dc904add5d8e2f32f444cefa8d560": [
+    "oltest_azureright\\v1\\Topic\\Installing_Windows_PowerShell_for_Azure_Rights_Management.md"
+  ],
+  "6d79f93caf157b5e182372349486b534142d17f4": [
+    "oltest_azureright\\v1\\Topic\\Logging_and_Analyzing_Azure_Rights_Management_Usage.md"
+  ],
+  "a0e71440cb0733f96adf61f3a5d3ffc70d97846c": [
+    "oltest_azureright\\v1\\Topic\\Microsoft_Rights_Management_sharing_application_user_guide_-_original_publication.md"
+  ],
+  "5df364efeffec4f50a3aa0634180bd4cbf249918": [
+    "oltest_azureright\\v1\\Topic\\Migrating_from_AD_RMS_to_Azure_Rights_Management.md"
+  ],
+  "d1f228af23d1e5107366fe1bb2ea2dde286f69b8": [
+    "oltest_azureright\\v1\\Topic\\Operations_for_Your_Azure_Rights_Management_Tenant_Key.md"
+  ],
+  "4d375cc44ce0514eede5fb86bf8860dcf575d232": [
+    "oltest_azureright\\v1\\Topic\\Planning_and_Implementing_Your_Azure_Rights_Management_Tenant_Key.md"
+  ],
+  "c63e3755c61ef92daeedec5d34411c089903b71c": [
+    "oltest_azureright\\v1\\Topic\\Preparing_for_Azure_Rights_Management.md"
+  ],
+  "130cb2917a0840e72c505eb0dcaf20089d7c1311": [
+    "oltest_azureright\\v1\\Topic\\Privacy_Statement_for_Microsoft_Rights_Management_in_RMS-Enlightened_Applications.md"
+  ],
+  "87f1ae9296b1f5e4441f218c9d2f682fb36eea52": [
+    "oltest_azureright\\v1\\Topic\\Protect_a_file_on_a_device__protect_in-place__by_using_the_Rights_Management_sharing_application.md"
+  ],
+  "f7e3449434734ac3b28627f4867c8aba33104c04": [
+    "oltest_azureright\\v1\\Topic\\Protect_a_file_that_you_share_by_email_by_using_the_Rights_Management_sharing_application.md"
+  ],
+  "4267341aed8baa6c379d0d0f10d9320691acdf93": [
+    "oltest_azureright\\v1\\Topic\\Quick_Start_Tutorial_for_Azure_Rights_Management.md"
+  ],
+  "ece5c2a7d2d453b2a70009ab7e8192dcce13f9ec": [
+    "oltest_azureright\\v1\\Topic\\Rapid_Deployment_Guide_for_Azure_Rights_Management.md"
+  ],
+  "83e0ed9a1450f0dae1eb6115a52a16825ff617f3": [
+    "oltest_azureright\\v1\\Topic\\Remove_protection_from_a_file_by_using_the_Rights_Management_sharing_application.md"
+  ],
+  "1b534c6c25143e9fb6f816672f5500f9df56b1ea": [
+    "oltest_azureright\\v1\\Topic\\Requirements_for_Azure_Rights_Management.md"
+  ],
+  "d6c00c99c7f160e4bd77c0650b41150233ad18f2": [
+    "oltest_azureright\\v1\\Topic\\Requirements_for_Azure_Rights_Management__retired_.md"
+  ],
+  "d0743d80094f02dfb3dfdb16e50146d90e4a2eb8": [
+    "oltest_azureright\\v1\\Topic\\Revised_Version_2__Rights_Management_sharing_application_user_guide_-_working_version,_sandbox_only.md"
+  ],
+  "b81f847a3420033973af368ed299d0accf48b2b2": [
+    "oltest_azureright\\v1\\Topic\\Revised_Version_3__Microsoft_Rights_Management_sharing_application_guide.md"
+  ],
+  "c8951e89b72b957d684a7ec64d7f687368f7508b": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management__RMS__Client.md"
+  ],
+  "9b9a5580096ba27285bcc84012b9cf557bbfc912": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management_sharing_application_administrator_guide.md"
+  ],
+  "09640134a94dc19e35cbccb9516a581e4de9065d": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management_Sharing_Application_for_Windows.md"
+  ],
+  "e4e26c8b81936414dbabf8e14a2d5d1d3ed6f367": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management_sharing_application_user_guide.md"
+  ],
+  "33bcd4bc395449f30f481022de8d37f7d509c142": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management_sharing_application_user_guide_-_revision_for_single_topic.md"
+  ],
+  "f75be52fe71fc89a3eacc5bca224729e14cec07f": [
+    "oltest_azureright\\v1\\Topic\\Rights_Management_sharing_application__Version_release_history.md"
+  ],
+  "5ea5505a0f5a2c49a6250bc3a408c602f2a985ad": [
+    "oltest_azureright\\v1\\Topic\\RMS_Client_Deployment_Notes.md"
+  ],
+  "298080e8f077d9a304c48379421d5d275e49c584": [
+    "oltest_azureright\\v1\\Topic\\RMS_for_Individuals_and_Azure_Rights_Management.md"
+  ],
+  "b98b1657c77f276056f24e7963251191eede7b9d": [
+    "oltest_azureright\\v1\\Topic\\RMS_Protection_with_Windows_Server_File_Classification_Infrastructure__FCI_.md"
+  ],
+  "e3d77fce9727c3a9c223ce9c59941e886813bfc8": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Configure_Work_Folders_for_Persistent_Protection.md"
+  ],
+  "1c13ae8bfcbaa5ffa0bfeaa91efdd4b8020cc9e4": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Executives_Securely_Exchange_Privileged_Information.md"
+  ],
+  "9ea82623f52aedc39f62f193c68d2eceeda8bfff": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Protect_Files_on_a_File_Server_Share.md"
+  ],
+  "fe06266ef20343ba696d20d98a3f66d0c65049d3": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Retain_Control_of_Documents_Stored_in_SharePoint.md"
+  ],
+  "ad0d2ffe57133b78ca2fea4bae59d8a2af3ac596": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Secure_Your_Most__Few__Valuable_Files.md"
+  ],
+  "b17c2a659bbe1e153b639a15a1e7df5ef239042a": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Send_a_Company-Confidential_Email.md"
+  ],
+  "883e0935fd0eec9ded5e7560df346d1e8addd217": [
+    "oltest_azureright\\v1\\Topic\\Scenario_-_Share_an_Office_File_with_Users_in_Another_Organization.md"
+  ],
+  "07760dfffdccb13fb8a2827fb96c8525b9e6d733": [
+    "oltest_azureright\\v1\\Topic\\Terminology_for_Azure_Rights_Management.md"
+  ],
+  "079cd09a99f3d736c16a2bf611db94fd62cebf40": [
+    "oltest_azureright\\v1\\Topic\\Track_and_revoke_your_documents_when_you_use_the_RMS_sharing_application.md"
+  ],
+  "024227b8fb23e4b0ae8df06376331aa3f7b2b20a": [
+    "oltest_azureright\\v1\\Topic\\Use_keyboard_shortcuts_in_the_Rights_Management_sharing_application.md"
+  ],
+  "5503c15a9749c2c74796a58021d5e5e4758e6fa1": [
+    "oltest_azureright\\v1\\Topic\\Using_Azure_Rights_Management.md"
+  ],
+  "2f16205b63ffb03108599f778eb295b44feed402": [
+    "oltest_azureright\\v1\\Topic\\Verifying_Azure_Rights_Management.md"
+  ],
+  "5f585174898a35872fba3ce54476cb9a43d9fab1": [
+    "oltest_azureright\\v1\\Topic\\View_and_use_files_that_have_been_protected_by_Rights_Management.md"
+  ],
+  "8a07d750605cf9e2f4ec2b4ae8eab775317932ba": [
+    "oltest_azureright\\v1\\Topic\\Welcome_to_Microsoft_RMS!.md"
+  ],
+  "7c3b6d313e2afa55f24628aea8368e19da1da2df": [
+    "oltest_azureright\\v1\\Topic\\Welcome_to_Microsoft_RMS!_Test.md"
+  ],
+  "19153bbf0a382486f51f64bb5d660cf2ee669247": [
+    "oltest_azureright\\v1\\Topic\\What_is_Azure_Rights_Management_.md"
+  ]
+}
