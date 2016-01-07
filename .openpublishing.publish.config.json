@@ -1,0 +1,18 @@
+{
+  "build_entry_point": "",
+  "docsets_to_publish": [
+    {
+      "docset_name": "oltest_azureright",
+      "build_output_subfolder": "oltest_azureright/v1",
+      "locale": "ja-jp",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    }
+  ],
+  "notification_subscribers": [
+    "jasoz@microsoft.com"
+  ]
+}
