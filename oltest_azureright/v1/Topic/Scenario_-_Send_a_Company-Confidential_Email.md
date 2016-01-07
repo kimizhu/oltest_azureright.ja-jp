@@ -10,10 +10,10 @@ ms.assetid: 950799e9-2289-48c7-b95a-f54a8ead520a
 ms.author: e8f708ba3bce4153b61467184c747c7f
 ---
 # Scenario - Send a Company-Confidential Email
+
 This scenario and supporting user documentation uses Azure Rights Management so that any user in the organization can safely send email communications that cannot be read outside the organization. For example, if somebody forwards the email message to somebody in another organization or to a personal email account. The emails and any attachments will be protected by Azure Rights Management and a template that users select from the email client.
 
 The simplest way to enable this scenario is to use one of the built-in, default templates that automatically restrict access to all users in your organization. But if required, you can make this more restrictive by creating a custom template that for example, restricts access to a subset of users, or has other restrictions such as read-only or an expiration date, or disables the Forward button in the email client.
-
 > [!IMPORTANT]
 > In this scenario, although you can remove the **Forward** right from a custom template that you configure, and this will disable the Forward button in the email client, this configuration doesn't prevent users from sharing the email with another authorized user. The recipient could save the email (and any attachments) and then share the information by using other sharing mechanisms.
 > 
@@ -28,32 +28,35 @@ The instructions are suitable for the following set of circumstances:
 -   Users must manually select the template from within their email client.
 
 ## Deployment Instructions
+
 ![](../Image/AzRMS_AdminBanner.png)
 
 Make sure that the following requirements are in place before going on to the user documentation.
 
 ## Requirements for this Scenario
+
 For the instructions for this scenario to work, the following must be in place:
 
-|Check|Requirement|If you need more information|
+| Check| Requirement| If you need more information|
 |---------|---------------|--------------------------------|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|You have prepared accounts and groups for Office 365 or Azure Active Directory|[Preparing for Azure Rights Management](https://technet.microsoft.com/library/jj585029.aspx)|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|Your Azure Rights Management tenant key is managed by Microsoft; you are not using BYOK|[Planning and Implementing Your Azure Rights Management Tenant Key](https://technet.microsoft.com/library/dn440580.aspx)|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|Azure Rights Management is activated|[Activating Azure Rights Management](https://technet.microsoft.com/library/jj658941.aspx)|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|One of the following:<br /><br />Exchange Online is enabled for Azure Rights Management<br /><br />The RMS connector is installed and configured for Exchange on-premises|For Exchange Online: Expand the [Exchange Online: IRM Configuration](https://technet.microsoft.com/library/jj585031.aspx) section in [Configuring Applications for Azure Rights Management](https://technet.microsoft.com/library/jj585031.aspx).<br /><br />For Exchange on-premises: [Deploying the Azure Rights Management Connector](https://technet.microsoft.com/library/dn375964.aspx)|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|You have not archived the default Azure Rights Management template **&lt;organization&gt; - Confidential**. Or, you have configured a custom template for this purpose because you need more restrictive settings or only a subset of users in the organization should be able to read the protected emails.|[Configuring Custom Templates for Azure Rights Management](https://technet.microsoft.com/library/dn642472.aspx)<br /><br />Tip: If you need more restrictive usage policy settings but for all users in the organization, copy and then edit one of the default templates, rather than create a template from scratch.<br /><br />Updated templates do not refresh immediately for the email clients in this scenario. Check the [Refreshing templates for users](https://technet.microsoft.com/library/dn642472.aspx) section in the configuring templates article for information.|
-|![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)|Users that send the protected email have Outlook 2013 or Outlook 2016, or Outlook Web Access.<br /><br />Users that receive the email have an email client that supports Azure Rights Management.|You can use Outlook 2010, but you must [install the Rights Management sharing application for Windows](https://technet.microsoft.com/library/dn339003.aspx) and adjust the user instructions accordingly.<br /><br />For a list of email clients that support Azure Rights Management, see the **Email** column in the [Client devices capability](https://technet.microsoft.com/library/dn655136.aspx) table, from [Requirements for Azure Rights Management](https://technet.microsoft.com/library/dn655136.aspx)|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| You have prepared accounts and groups for Office 365 or Azure Active Directory| [Preparing for Azure Rights Management](https://technet.microsoft.com/library/jj585029.aspx)|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| Your Azure Rights Management tenant key is managed by Microsoft; you are not using BYOK| [Planning and Implementing Your Azure Rights Management Tenant Key](https://technet.microsoft.com/library/dn440580.aspx)|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| Azure Rights Management is activated| [Activating Azure Rights Management](https://technet.microsoft.com/library/jj658941.aspx)|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| One of the following:<br /><br />Exchange Online is enabled for Azure Rights Management<br /><br />The RMS connector is installed and configured for Exchange on-premises| For Exchange Online: Expand the [Exchange Online: IRM Configuration](https://technet.microsoft.com/library/jj585031.aspx) section in [Configuring Applications for Azure Rights Management](https://technet.microsoft.com/library/jj585031.aspx).<br /><br />For Exchange on-premises: [Deploying the Azure Rights Management Connector](https://technet.microsoft.com/library/dn375964.aspx)|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| You have not archived the default Azure Rights Management template **&lt;organization&gt; - Confidential**.Or, you have configured a custom template for this purpose because you need more restrictive settings or only a subset of users in the organization should be able to read the protected emails.| [Configuring Custom Templates for Azure Rights Management](https://technet.microsoft.com/library/dn642472.aspx)<br /><br />Tip: If you need more restrictive usage policy settings but for all users in the organization, copy and then edit one of the default templates, rather than create a template from scratch.<br /><br />Updated templates do not refresh immediately for the email clients in this scenario.Check the [Refreshing templates for users](https://technet.microsoft.com/library/dn642472.aspx) section in the configuring templates article for information.|
+| ![](../Image/4d269a30-a873-45c5-87de-30ee6558e7b0.gif)| Users that send the protected email have Outlook 2013 or Outlook 2016, or Outlook Web Access.<br /><br />Users that receive the email have an email client that supports Azure Rights Management.| You can use Outlook 2010, but you must [install the Rights Management sharing application for Windows](https://technet.microsoft.com/library/dn339003.aspx) and adjust the user instructions accordingly.<br /><br />For a list of email clients that support Azure Rights Management, see the **Email** column in the [Client devices capability](https://technet.microsoft.com/library/dn655136.aspx) table, from [Requirements for Azure Rights Management](https://technet.microsoft.com/library/dn655136.aspx)|
 
 ## User Documentation Instructions
+
 Using the following template, copy and paste the user instructions into a communication for your end users, and make these modifications to reflect your environment:
 
-1.  Replace all instances of *&lt;organization name&gt;* with the name of your organization.
+1.  Replace all instances of *<organization name>* with the name of your organization.
 
-2.  Replace all instances of *&lt;organization name - Confidential&gt;* with the name of your default or custom template.
+2.  Replace all instances of *<organization name - Confidential>* with the name of your default or custom template.
 
 3.  Replace the screenshots so that they show your organization template names.
 
-4.  Replace *&lt;contact details&gt;* with instructions for how your users can contact the help desk, such as a website link, email address, or telephone number.
+4.  Replace *<contact details>* with instructions for how your users can contact the help desk, such as a website link, email address, or telephone number.
 
 5.  **Additional modifications you might want to make:**
 
@@ -81,9 +84,9 @@ The example documentation shows how these instructions might look for users, aft
 
 #### How to send emails that contain company-confidential information using Outlook
 
-1.  Within Outlook, create a new mail message, add any attachments that you want to include, and then select users or groups from *&lt;organization name&gt;*.
+1.  Within Outlook, create a new mail message, add any attachments that you want to include, and then select users or groups from *<organization name>*.
 
-2.  From the **OPTIONS** tab, click **Permission**, and then select **&lt;organization name - Confidential&gt;**:
+2.  From the **OPTIONS** tab, click **Permission**, and then select **<organization name - Confidential>**:
 
     ![](../Image/AzRMS_OutlookTemplate.PNG)
 
@@ -91,25 +94,26 @@ The example documentation shows how these instructions might look for users, aft
 
 #### How to send emails that contain company-confidential information using Outlook Web App
 
-1.  Within the Outlook Web App, create a new mail message, add any attachments that you want to include, and then select *&lt;organization name&gt;* users or groups from the address book.
+1.  Within the Outlook Web App, create a new mail message, add any attachments that you want to include, and then select *<organization name>* users or groups from the address book.
 
-2.  Click **…**, click **Set permissions**, and then select **&lt;organization name - Confidential&gt;**:
+2.  Click **…**, click **Set permissions**, and then select **<organization name - Confidential>**:
 
     ![](../Image/AzRMS_OWATemplate.png)
 
 3.  Send the message.
 
-When somebody on the **To**, **Cc**, or **Bcc** line receives this email, they might be asked to authenticate before they can read the message, to verify that they are a user from *&lt;organization name&gt;*. Other times, users are not prompted because they are already authenticated.
+When somebody on the **To**, **Cc**, or **Bcc** line receives this email, they might be asked to authenticate before they can read the message, to verify that they are a user from *<organization name>*. Other times, users are not prompted because they are already authenticated.
 
-People that you send your email to will be able to forward it to other people, but only users from *&lt;organization name&gt;* will be able to read it. If you attach an Office document, it will have the same protection, even if that attachment is saved with a different name, to another location. However, successfully authenticated users can copy and paste from the email or attachment, or print from it. If you need more restrictive protection that prevents actions such as these, contact the help desk.
+People that you send your email to will be able to forward it to other people, but only users from *<organization name>* will be able to read it. If you attach an Office document, it will have the same protection, even if that attachment is saved with a different name, to another location. However, successfully authenticated users can copy and paste from the email or attachment, or print from it. If you need more restrictive protection that prevents actions such as these, contact the help desk.
 
 **Need help?**
 
 -   Contact the help desk:
 
-    -   *&lt;contact details&gt;*
+    -   *<contact details>*
 
 ### Example Customized User Documentation
+
 ![](../Image/AzRMS_ExampleBanner.png)
 
 ##### How to send emails that contain company-confidential information using Outlook
@@ -141,4 +145,8 @@ People that you send your email to will be able to forward it to other people, b
 -   Contact the help desk:
 
     -   Email: helpdesk@vanarsdelltd.com
+
+
+
+
 
